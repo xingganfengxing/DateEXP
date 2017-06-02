@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DubheLoader with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="e:\\DataEXP-2.0.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.litb.bi.support.dexp.DataEXP"/>
+                <!--<attribute name="Class-Path" value=". lib/ojdbc14.jar lib/commons-logging-1.1.1.jar lib/mysql-connector-java-5.1.18-bin.jar lib/org.springframework.asm-3.0.6.RELEASE.jar lib/org.springframework.beans-3.0.6.RELEASE.jar lib/org.springframework.context-3.0.6.RELEASE.jar lib/org.springframework.core-3.0.6.RELEASE.jar lib/org.springframework.expression-3.0.6.RELEASE.jar lib/org.springframework.jdbc-3.0.6.RELEASE.jar lib/org.springframework.transaction-3.0.6.RELEASE.jar lib/c3p0-0.9.1.jar lib/c3p0-oracle-thin-extras-0.9.1.2.jar lib/jaxen-1.1-beta-4.jar
+                	
+                	lib/jaxen-1.1-beta-4.jar lib/mina-statemachine-2.0.2.jar lib/mina-core-2.0.2.jar lib/slf4j-log4j12-1.5.6.jar lib/slf4j-api-1.5.11.jar lib/quartz-all-1.6.5.jar lib/dom4j-1.6.1.jar
+"/>-->
+            </manifest>
+            <fileset dir="E:\code\workspace\DataEXP\trunk\build"/>
+        </jar>
+    </target>
+</project>
